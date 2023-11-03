@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body{
+   display:flex;
+   justify-content:right;
+   align-items: right;
+   min-height: 100vh;
+   margin-right: 300px;
+   margin-top: 100px;
+   padding-left:70px;
+}
+.heading h1 {
+    color:37023C;
+    font-size:55px;
+}
+.heading h2 {
+    color:37023C;
+    padding:10px;
+    font-size:55px;
+}
+.email{
+    display:flex;
+    align-items: center;
+    background:gainsboro;
+    border: 10px;
+    padding:2px;
+    overflow: hidden;
+   border-radius: 10px;
+    height: 40px;
+  
+}
+
+.password{
+    display:flex;
+    align-items: center;
+    background:gainsboro;
+    border: 10px;
+    padding:2px;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 40px;
+}
+.sign{
+    margin-left:70px;
+    display:flex;
+    align-items: center;
+    background:rgba(7, 122, 230, 0.527);
+    /*border: 10px;*/
+    padding:20px;
+    overflow: hidden;
+    border-radius:40px;
+    height: 40px;
+    width:125px;
+    cursor: pointer;
+}
+.underline{
+    margin-left:30px;
+}
+.google{
+    margin-left:30px;
+    display:flex;
+    align-items: center;
+    background:transparent;
+    padding:19px;
+    overflow: hidden;
+    background-color: white;
+    border-radius:25px ;
+    height: 40px;
+    cursor: pointer;
+}
+.email input{
+    flex:1px;
+    border:0px;
+    outline:0px;
+    margin-left:19px;
+    background:transparent;
+    
+}
+.password input{
+    flex:1px;
+    border:0px;
+    outline:0px;
+    margin-left:19px;
+    background:transparent;
+   
+}
+.btn{
+    flex:1px;
+    border:0px;
+    outline:0px;
+    margin-left:19px;
+    background:transparent;
+    width:25px;
+    padding:05px;
+   
+}
+.btn{
+    flex:1px;
+    border:0px;
+    outline:0px;
+    margin-left:5px;
+    background:transparent;
+    width:25px;
+    padding:05px;
+    cursor: pointer;
+   
+}
+.button{
+    margin-left:35px;
+    display:flex;
+    align-items: center;
+    background:transparent;
+    padding:20px;
+    overflow: hidden;
+    background-color: white;
+    border-radius:25px ;
+    height: 40px;
+    cursor: pointer;
+    
+    
+   
+}
+.leftside,.rightside{
+    width: 100vh;
+    height: 100%;
+}
+.leftside{
+    background-color: white;
+   height:100%;
+    width:70%;
+    background-image:url(F:/Rectangle1.png) ;
+    background-size: cover;
+    
+
+}
+.rightside{
+   align-items: right;
+    background-color:transparent;
+    height:500px;
+   
+}
